@@ -1,0 +1,245 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:wght@700&family=Quicksand:wght@300;700&display=swap');
+
+body{
+  font-family: "Quicksand", sans-serif;
+background-color: #C5B5AC;
+}
+
+#logos{
+  justify-content: center;
+
+}
+
+#profile-card{
+  margin-top: 50px;
+  background-color: #e1c3ba;
+  border-radius: 25px;
+  margin-bottom: 100px;
+}
+.card{
+  border-radius: 25px;
+
+}
+#aboutMe{
+  margin-top: 50px;
+  margin-left:100px;
+}
+#aboutParagraph{
+  font-size: large;
+}
+
+#navbar{
+  background-color: transparent;
+}
+
+.navbar-brand{
+  font-size:xx-large;
+}
+
+#collapsibleNavbar{
+  justify-content: right;
+  color:black;
+
+}
+.nav-link{
+  font-weight: ;
+  color:black;
+}
+
+a{
+  color:black;
+}
+
+.footer {
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: grey;
+  color: black;
+  text-align: auto;
+}
+
+#footer-brand{
+  color: black;
+}
+
+.card-title{
+  text-align: center;
+}
+
+
+
+/* Shinee picture */
+#shineeHouse {
+  position: relative;
+  text-align: center;
+}
+.centered-shinee {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color:white;
+  text-shadow: 2px 2px black;
+  font-weight: bolder;
+  font-size: xx-large;
+  opacity: 1.0;
+}
+#shineeHouse:hover .centered-shinee{
+  opacity: 0;
+}
+#shineePic{
+  border-radius: 50%;
+  width: 200px; /* width of container */
+  height: 200px;
+  border: 2px solid black;
+  opacity: 1;
+}
+
+
+/* Mitski picture */
+#mitskiHouse {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+.centered-mitski {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color:white;
+  text-shadow: 2px 2px black;
+  font-weight: bolder;
+  font-size: xx-large;
+  opacity: 1;
+}
+#mitskiHouse:hover .centered-mitski{
+  opacity: 0;
+}
+#mitskiPic{
+  border-radius: 50%;
+  width: 200px; /* width of container */
+    height: 200px; /* height of container */
+    object-fit: cover;
+    border: 2px solid black;
+
+}
+
+/* serpent picture */
+#serpentHouse {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+.centered-serpent {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color:white;
+  text-shadow: 2px 2px black;
+  font-weight: bolder;
+  font-size: x-large;
+  opacity: 1;
+}
+
+#serpentHouse:hover .centered-serpent{
+  opacity: 0;
+}
+#serpentPic{
+  border-radius: 50%;
+  width: 200px; /* width of container */
+    height: 200px; /* height of container */
+    object-fit: cover;
+    border: 2px solid black;
+
+}
+
+/* aggretsuko pic */
+#aggHouse {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+.centered-agg {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color:white;
+  text-shadow: 2px 2px black;
+  font-weight: bolder;
+  font-size: xx-large;
+  opacity: 1;
+}
+#aggHouse:hover .centered-agg{
+  opacity: 0;
+}
+#aggPic{
+  border-radius: 50%;
+  width: 200px; /* width of container */
+    height: 200px; /* height of container */
+    object-fit: cover;
+    border: 2px solid black;
+
+}
+
+
+/* blue period pic */
+#blueHouse {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+.centered-blue {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color:white;
+  text-shadow: 2px 2px black;
+  font-weight: bolder;
+  font-size: xx-large;
+  opacity: 1;
+}
+#blueHouse:hover .centered-blue{
+  opacity: 0;
+}
+#bluePic{
+  border-radius: 50%;
+  width: 200px; /* width of container */
+    height: 200px; /* height of container */
+    object-fit: cover;
+    border: 2px solid black;
+
+}
+
+/* alice pic */
+#aliceHouse {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+.centered-alice {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color:white;
+  text-shadow: 2px 2px black;
+  font-weight: bolder;
+  font-size: xx-large;
+  opacity: 1;
+}
+#aliceHouse:hover .centered-alice{
+  opacity: 0;
+}
+#alicePic{
+  border-radius: 50%;
+  width: 200px; /* width of container */
+    height: 200px; /* height of container */
+    object-fit: cover;
+    border: 2px solid black;
+
+}
